@@ -118,3 +118,54 @@
     }
   }
 }
+
+.newsLetter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(../img/banner/b14.png);
+  background-position: 20% 30%;
+  background-color: $dark;
+  background-repeat: no-repeat;
+
+  h4 {
+    font-size: 1.35rem;
+    color: $off-white;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 0.89rem;
+    font-weight: 600;
+    color: $gray;
+
+    span {
+      color: $yellow;
+    }
+  }
+
+  .form {
+    display: flex;
+    width: 40%;
+
+    input {
+      height: 3.125rem;
+      padding: 0 1.25rem;
+      font-size: 0.88rem;
+      width: 100%;
+      border: 1px solid transparent;
+      border-radius: 0.25rem;
+      outline: none;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    button {
+      background-color: $green;
+      color: $off-white;
+      white-space: nowrap;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}
