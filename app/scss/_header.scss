@@ -45,4 +45,64 @@
       }
     }
   }
+
+  #close {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 799px) {
+  .header {
+    .navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: fixed;
+      top: 0;
+      right: -300px;
+      height: 100vh;
+      width: 300px;
+      background-color: $off-white;
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.1);
+      padding: 5rem 0 0 0.875rem;
+      transition: 0.3s ease-in-out;
+
+      &.active {
+        right: 0;
+      }
+
+      li {
+        margin-bottom: 1.57rem;
+      }
+
+      #close {
+        display: initial;
+        position: absolute;
+        top: 1.89rem;
+        left: 1.89rem;
+        color: $dark;
+        font-size: 1.5rem;
+      }
+
+      #cartLg-none {
+        display: none;
+      }
+    }
+
+    .mobile {
+      display: flex;
+      align-items: center;
+
+      i {
+        color: $dark;
+        font-size: 1.5rem;
+        padding-left: 1.25rem;
+      }
+    }
+  }
 }
