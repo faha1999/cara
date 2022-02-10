@@ -181,3 +181,24 @@
     height: 20vh;
   }
 }
+
+@media (max-width: 477px) {
+  .features {
+    justify-content: space-between;
+
+    .fa-box {
+      width: 155px;
+      margin: 0 0 1rem 0;
+    }
+  }
+
+  .features-products {
+    .products-img {
+      width: 100%;
+    }
+  }
+
+  .banner {
+    height: 40vh;
+  }
+}

@@ -193,3 +193,25 @@
     }
   }
 }
+
+@media (max-width: 477px) {
+  .currentOff-banner {
+    .banner-box {
+      height: 40vh;
+    }
+  }
+
+  .allTime-offer {
+    padding: 0 1.25rem;
+    .banner-box {
+      width: 100%;
+    }
+  }
+
+  .newsLetter {
+    padding: 2.5rem 1.25rem;
+    .form {
+      width: 100%;
+    }
+  }
+}

@@ -71,11 +71,17 @@ button.bgNone {
   transition: 0.3s ease;
 }
 
-@media (max-width: 799px) {
+@media (max-width: 477px) {
 }
 
 @media (max-width: 799px) {
   .section-p1 {
     padding: 2.5rem;
+  }
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 1.25rem;
   }
 }
