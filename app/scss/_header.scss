@@ -5,6 +5,10 @@
   padding: 1.25rem 5rem;
   background: $off-white;
   box-shadow: $shadow;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 
   .navbar {
     display: flex;
