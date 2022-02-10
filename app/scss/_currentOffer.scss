@@ -1,0 +1,120 @@
+.currentOff-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../img/banner/b17.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 2.15rem;
+
+    &:nth-child(2) {
+      background-image: url(../img/banner/b10.jpg);
+
+      h4 {
+        color: $dark-light;
+      }
+
+      h2 {
+        color: $yellow;
+      }
+
+      span {
+        color: $off-white;
+      }
+
+      button {
+        color: $red;
+      }
+    }
+
+    &:hover {
+      button {
+        background-color: $off-white;
+      }
+    }
+
+    h4 {
+      color: $gray;
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
+
+    h2 {
+      color: $red;
+      font-size: 1.75rem;
+      font-weight: 800;
+    }
+
+    span {
+      color: $dark-light;
+      font-size: 0.875rem;
+      font-weight: 500;
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+.allTime-offer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 5rem;
+
+  .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../img/banner/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+
+    &:nth-child(2) {
+      background-image: url(../img/banner/b4.jpg);
+
+      h3 {
+        color: $yellow;
+      }
+
+      h2 {
+        color: $dark;
+      }
+    }
+
+    &:nth-child(3) {
+      background-image: url(../img/banner/b18.jpg);
+
+      h3 {
+        color: $dark-light;
+      }
+
+      h2 {
+        color: $yellow;
+      }
+    }
+
+    h2 {
+      color: $off-white;
+      font-weight: 900;
+      font-size: 1.45rem;
+    }
+
+    h3 {
+      color: $red;
+      font-weight: 800;
+      font-size: 1rem;
+    }
+  }
+}

@@ -56,3 +56,15 @@ button.normal {
   outline: none;
   transition: 0.3s ease;
 }
+
+button.bgNone {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.72rem 1.12rem;
+  color: $green;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid $off-white;
+  outline: none;
+  transition: 0.3s ease;
+}
