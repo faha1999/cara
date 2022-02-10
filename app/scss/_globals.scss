@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.125rem;
+  line-height: 4rem;
+  color: $dark;
+}
+
+h2 {
+  font-size: 2.875rem;
+  line-height: 2.775rem;
+  color: $dark;
+}
+
+h4 {
+  font-size: 1.25rem;
+  color: $dark;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  color: $gray;
+  margin: 1rem 0 1.25rem 0;
+}
+
+.section-p1 {
+  padding: 2.5rem 5rem;
+}
+
+.section-m1 {
+  margin: 2.5rem 0;
+}
