@@ -43,3 +43,16 @@ p {
 .section-m1 {
   margin: 2.5rem 0;
 }
+
+button.normal {
+  font-size: 0.876rem;
+  font-weight: 600;
+  padding: 1rem 1.9rem;
+  color: $dark;
+  background-color: $off-white;
+  border-radius: 0.24rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.3s ease;
+}
