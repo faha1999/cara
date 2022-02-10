@@ -157,3 +157,27 @@
     color: $off-white;
   }
 }
+
+@media (max-width: 799px) {
+  .features {
+    justify-content: center;
+
+    .fa-box {
+      margin: 1rem;
+    }
+  }
+
+  .features-products {
+    .products-container {
+      justify-content: center;
+
+      .products-img {
+        margin: 1rem;
+      }
+    }
+  }
+
+  .banner {
+    height: 20vh;
+  }
+}

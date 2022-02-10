@@ -29,3 +29,11 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 799px) {
+  .hero {
+    height: 70vh;
+    padding: 0 5rem;
+    background-position: top 30% right 30%;
+  }
+}
