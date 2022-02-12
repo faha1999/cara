@@ -14,7 +14,7 @@
     margin: 1rem 0;
 
     &:hover {
-      box-shadow: 0.625rem 0.625rem 3.375rem rgba(70, 62, 221, 0.1);
+      box-shadow: 0 0.125rem 0.25rem rgba(243, 2, 252, 0.075);
     }
 
     img {
@@ -69,18 +69,24 @@
     border: 1px solid $off-white;
     border-radius: 1.5rem;
     cursor: pointer;
-    box-shadow: 1.25rem 1.25rem 2rem rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     margin: 1rem 0;
     transition: 0.2s ease;
     position: relative;
 
     &:hover {
-      box-shadow: 1.25rem 1.25rem 2rem rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     }
 
     img {
       width: 100%;
       border-radius: 1.25rem;
+
+      &:hover {
+        box-shadow: 0 0.125rem 0.25rem rgba(243, 2, 252, 0.075);
+        transform: scale(1.02);
+        transition: 0.3s ease;
+      }
     }
 
     .details {
