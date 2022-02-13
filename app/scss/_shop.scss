@@ -17,21 +17,21 @@
       padding-bottom: 1rem;
     }
   }
+}
 
-  .pagination {
-    text-align: center;
-    a {
-      text-decoration: none;
-      background-color: $green;
-      padding: 1rem 1.25rem;
-      border-radius: 0.25rem;
-      color: $off-white;
+.pagination {
+  text-align: center;
+  a {
+    text-decoration: none;
+    background-color: $green;
+    padding: 1rem 1.25rem;
+    border-radius: 0.25rem;
+    color: $off-white;
+    font-weight: 600;
+
+    i {
+      font-size: 1rem;
       font-weight: 600;
-
-      i {
-        font-size: 1rem;
-        font-weight: 600;
-      }
     }
   }
 }
