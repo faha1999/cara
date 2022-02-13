@@ -102,6 +102,23 @@
         color: $dark;
         font-size: 1.5rem;
         padding-left: 1.25rem;
+
+        &:hover,
+        &.active {
+          color: $green;
+          position: relative;
+
+          &::after,
+          &:hover::after {
+            content: '';
+            width: 30%;
+            height: 2px;
+            background: $green;
+            position: absolute;
+            bottom: -4px;
+            right: 0;
+          }
+        }
       }
     }
   }

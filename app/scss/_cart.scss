@@ -1,32 +1,40 @@
 .cart {
-  .hero {
-    background-image: url(../img/about/banner.png);
-    width: 100%;
-    height: 40vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 1rem;
-
-    h2,
-    p {
-      color: $off-white;
-      margin: 0 auto;
-      padding-bottom: 1rem;
-    }
-  }
-
   .cartDetail {
-    text-align: center;
-    padding-top: 2rem;
+    overflow-x: auto;
+
+    h4 {
+      padding-bottom: 2rem;
+    }
 
     table {
-      width: 100%;
+      min-width: 550px;
       border-collapse: collapse;
       table-layout: fixed;
       white-space: nowrap;
+      text-align: center;
+
+      thead {
+        border: 1px solid $off-white;
+        border-left: none;
+        border-right: none;
+
+        td {
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 0.789rem;
+          padding: 1.11rem 0;
+        }
+      }
+
+      tbody {
+        tr {
+          font-size: 0.879rem;
+
+          td {
+            padding-top: 1rem;
+          }
+        }
+      }
 
       img {
         width: 70px;
@@ -57,6 +65,81 @@
       td input {
         width: 70px;
         padding: 10px 5px 10px 15px;
+      }
+    }
+  }
+  .checkOut {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .coupon {
+      width: 50%;
+      margin-bottom: 1.89rem;
+
+      h3 {
+        padding-bottom: 1rem;
+      }
+
+      input {
+        padding: 0.789rem 1.25rem;
+        outline: none;
+        width: 60%;
+        margin-right: 0.789rem;
+        border: 1px solid $off-white;
+      }
+
+      button {
+        background-color: $green;
+        color: $off-white;
+        padding: 0.75rem 1.125rem;
+      }
+    }
+
+    .subtotal {
+      width: 50%;
+      margin-bottom: 1.89rem;
+      border: 1px solid $off-white;
+      padding: 1.89rem;
+
+      h3 {
+        padding-bottom: 1rem;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 1.25rem;
+
+        td {
+          width: 50%;
+          border: 1px solid $off-white;
+          padding: 0.67rem;
+          font-size: 0.78rem;
+        }
+      }
+
+      button {
+        background-color: $green;
+        color: $off-white;
+      }
+    }
+  }
+}
+
+@media (max-width: 477px) {
+  .cart {
+    .checkOut {
+      flex-direction: column;
+      overflow-x: hidden !important;
+
+      .coupon {
+        width: 100% !important;
+      }
+
+      .subtotal {
+        width: 100% !important;
+        padding: 1.25rem !important;
       }
     }
   }
