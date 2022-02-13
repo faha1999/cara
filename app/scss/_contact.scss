@@ -1,0 +1,71 @@
+.contact {
+  .hero {
+    background-image: url(../img/about/banner.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 1rem;
+
+    h2,
+    p {
+      color: $off-white;
+      margin: 0 auto;
+      padding-bottom: 1rem;
+    }
+  }
+
+  .contactDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .details {
+      width: 40%;
+
+      span {
+        font-size: 0.75rem;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+        line-height: 2.25rem;
+        padding: 1.25rem 0;
+      }
+
+      h3 {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+      }
+
+      li {
+        list-style: none;
+        display: flex;
+        padding: 0.674rem;
+
+        i {
+          font-size: 0.89rem;
+          padding-right: 1.5rem;
+        }
+
+        p {
+          margin: 0;
+          font-size: 0.89rem;
+        }
+      }
+    }
+
+    .map {
+      width: 55%;
+      height: 400px;
+
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
